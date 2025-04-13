@@ -26,10 +26,12 @@ services:
 
   db:
     image: postgres
+    environment:
+      POSTGRES_DB: postgres
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 1234
     volumes:
       - postgres_data:/var/lib/postgresql/data/
-    env_file:
-       - ./.env
 
   redis:
     image: redis
