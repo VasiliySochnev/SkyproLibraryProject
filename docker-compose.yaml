@@ -34,7 +34,7 @@ services:
   redis:
     image: redis
     volumes:
-      - redis_data:/data env_file
+      - redis_volume:/data
     env_file:
       - ./.env
 
