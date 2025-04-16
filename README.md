@@ -56,7 +56,7 @@ sudo apt install docker-compose -y
 sudo apt install git
 ```
 ```
-ssh <username>@<IP machine>
+ssh ubuntu@158.160.133.231
 ```
 ```
 git clone https://github.com/VasiliySochnev/SkyproLibraryProject.git
